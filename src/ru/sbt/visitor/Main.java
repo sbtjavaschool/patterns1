@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Point point = new Point3D();
 
-        double result = point.visit(new SqrtVisitor());
+        System.out.println("HELLO");
+
         point.visit(new PrintDetailsVisitor());
     }
 }
