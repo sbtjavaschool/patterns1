@@ -6,7 +6,6 @@ public class Main {
 
         System.out.println("HELLO");
 
-        double result = point.visit(new SqrtVisitor());
         point.visit(new PrintDetailsVisitor());
     }
 }
