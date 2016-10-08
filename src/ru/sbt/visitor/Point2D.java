@@ -13,4 +13,9 @@ public class Point2D extends Point {
     public double getY() {
         return y;
     }
+
+    @Override
+    public double visit(Visitor visitor) {
+        return visitor.calc(this);
+    }
 }
