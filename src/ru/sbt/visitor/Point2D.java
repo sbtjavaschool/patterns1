@@ -6,6 +6,10 @@ public class Point2D extends Point {
 
 
 
+
+
+
+
     public double getX() {
         return x;
     }
